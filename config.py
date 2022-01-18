@@ -7,7 +7,7 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "session")
+SESSION_NAME = getenv("SESSION_NAME", "1ApWapzMBu1uDgB1HCJaxusUq33F47cs3yHURIcJ4br8PfvigObxdslBoU_1HeVdxAomX8WtZuuEkEQFT46ljKBt-N5hb7BURKETTvXVyC3ZoGL5QGIZXrpoE5zGCQuAembesyH2s8riZOF-5jx7KE1Us4_ybbMLD5GLyJbwlhS-QOIG9Wl-gXlMXGApUOBJY7ZHGgk6SWhf-c6TD4ZIGCEUVRhSlIhS9uawJn02Tfgx0FhBMy26zKczdYe0T8VMug6xmHQhnzxuiY17sS0RT77j2qjxerKz2Fh6cu4PvLeEBCj-92wplQ3HuIUDkxBqaT9Ztj7IpSYr2dmjmQShaESW9FCXcTaA=")
 BOT_TOKEN = getenv("1109920344:AAGdq8nwpDcXcNY13D_6C58pavFxsfVlEd0")
 BOT_NAME = getenv("BOT_NAME", "Video Stream")
 API_ID = int(getenv("API_ID"))
